@@ -7,8 +7,8 @@ action "Deploy to Azure" {
   uses = "./.github/azdeploy"
   secrets = ["SERVICE_PASS"]
   env = {
-    SERVICE_PRINCIPAL="http://sdrasAzureAction",
-    TENANT_ID="72f988bf-86f1-41af-91ab-2d7cd011db47",
-    APPID="sdrasAzureAction"
+    SERVICE_PRINCIPAL="http://ServicePrincipalName",
+    TENANT_ID="0c2ebf14-f2c2-4520-81e2-471a3c80061a".
+    APPID="4ed29b99-c265-4e1a-8251-fdc868f83dbd"
   }
 }
