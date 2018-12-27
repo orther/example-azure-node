@@ -1,4 +1,4 @@
-workflow "Deploy on push" {
+workflow "Deploy on Push" {
   on = "push"
   resolves = ["Deploy to Azure Example"]
 }
